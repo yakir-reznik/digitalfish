@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    padding:0;
+    margin:0;
+    font-family:Tahoma, Verdana;
+    box-sizing:border-box;
+}
+
+#header{
+    width:100%;
+    height:20em;
+    position:relative;
+}
+
+#logo{
+    padding:1em;
+}
+
+#logo img{
+    max-width:40%;
+    display:inline;
+}
+
+.shareImg{
+    height:0px;
+    max-height:100%;
+    max-width:100%;
+    float:right;
+    cursor:pointer;
+    opacity:0.9;
+}
+
+.shareImg:hover{opacity:1;}
+
+#nav{
+    float:right;
+}
+
+#nav h2{
+    font-size:1em;
+    font-weight:normal;
+    padding:1em;
+    color:#fff;
+    background-color:#000;
+    margin:0;
+    float:right;
+    cursor:pointer;
+    -webkit-transition-duration:500ms;
+    -moz-transition-duration:500ms;
+    transition-duration:500ms;
+}
+
+#nav h2:hover{background-color:#222; color:#00adff;}
+#nav h2:last-child{border-bottom-left-radius:2em;}
+#nav h2:last-child:hover{background-color:#000; color:#fff;cursor:default}
+
+#nav a{
+	color:inherit;
+	font-size:inherit;
+	text-decoration:none;	
+}
+
+#nav a:visited{
+	color:inherit;
+	font-size:inherit;
+	text-decoration:none;	
+}
+
+.box{
+    float:right;
+    width:30%;
+    margin:1.66%;
+    background-color:#eee;
+    direction:rtl;
+}
+
+.box img{
+    max-height:10em;
+    float:right;
+}
+
+.box p{
+    direction:rtl;
+    display:table-cell;
+    height:10em;
+    vertical-align:middle;
+    margin-left:100%;
+}
+
+#textDiv{
+	display:table-cell;
+	vertical-align:top;
+	padding-top:2em;
+    padding-right:1em;
+	text-align:right;	
+	direction:rtl;
+	font-family:Tahoma,Verdana;
+	font-weight:normal;
+	font-size:1em;		
+}
+
+#imgContainer{
+	width:60%;
+	display:table-cell;
+    padding-left:1em;
+}
+
+.imgContainer-spacer{
+	width:4%;
+	display:inline-block;
+}
+
+#contact-container{
+	text-align:center;
+	direction:rtl;
+	font-weight:bold;	
+}
+
+.contact-square{
+	background-color:#eee;
+	font-size:0.9em;
+	font-weight:normal;
+	width:30%;
+	margin:1em;
+	text-align:center;
+	padding:1%;
+    overflow:visible;
+	display:inline-block;
+}
+
+#contact-phone{float:right;}
+#contact-mail{float:none;}
+#contact-details{float:left;}
+#contact-details{float:none;}
+#contact-details{float:left;}
+
+.contact-spacer{display:none;}
+
+.contact-icon{
+	display:block;
+	max-width:70%;
+	margin:auto;
+	max-height:95%;
+}
+
+.contact-square p{
+	display:table-cell;	
+}
+
+.input-container div{
+	width:25%;
+	display:inline-block;
+}
+
+.input-container input{
+	width:60%;	
+}
+
+#btnSubmit{
+	width:5em;
+	background-color:#000;
+	color:#fff;
+	padding:0.5em;
+	height:2em;
+	text-align:center;
+	border-radius:0.5em;
+	margin:auto;	
+}
+
+#btnSubmit{
+    -webkit-transition-duration:500ms;
+    -moz-transition-duration:500ms;
+    transition-duration:500ms;
+}
+
+#btnSubmit:hover{cursor:pointer; background-color:#222; color:#00adff;}
+
+
+/* SLIDER */
+
+#slide1{
+	background:url(images/silder/1.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100%;		
+}
+
+#slide2{
+	background:url(images/silder/2.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100%;		
+}
+
+#slide3{
+	background:url(images/silder/3.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100%;		
+}
+
+#slide4{
+	background:url(images/silder/4.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100%;		
+}
+
+.slide-caption{
+	float:right;
+	background-color:#000;
+	color:#fff;	
+	opacity:0.65;
+	text-align:right;
+	padding:1em;
+	width:25%;
+	height:100%;
+	margin:0;
+	font-size:1.3em;
+}
+
+.iosSlider {
+	/* required */
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	box-shadow:0 0 15px 0 #000;
+	width: 100%;
+    height:100%;
+}
+
+/* slider */
+.iosSlider .slider {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* slide */
+.iosSlider .slider .slide {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* css for pages */ /* css for pages */ /* css for pages */ /* css for pages */
+
+.pageTitle{
+	font-size:1.2em;
+	text-align:right;
+	direction:rtl;
+	padding:1em;	
+}
+
+.hebText{
+	text-align:right;
+	padding:1em;
+	width:50%;
+	direction:rtl;	
+}

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo img:first-child{
+	width:90%;
+    max-width:100%;
+	display:block;
+	margin:auto;
+}
+
+.shareImg{
+    height:0px;
+    opacity:1;
+    margin-right:5%;
+    float:right;
+}
+
+#nav{
+    width:85%;
+}
+
+#nav h2{
+    width:33.3%;
+    text-align:center;
+}
+
+#nav h2:nth-child(6){border-bottom-left-radius:2em;}
+#nav h2:last-child{display:none;}
+
+.box{
+    float:none;
+    width:95%;
+    margin:2.5%;
+}
+
+#imgContainer{
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+.contact-square{
+	background-color:#eee;
+	font-size:1em;
+	text-align:center;
+	padding:1em;
+	display:block;	
+	float:none;
+	width:90%;
+	margin:auto;
+}
+
+#contact-mail, #contact-phone, #contact-details{float:none;}
+
+.contact-spacer{display:block; height:1em; clear:both;}
+
+#df-bottom-bar-mobile{
+	display:block;
+	background-color:#444;
+	color:white;
+	text-align:right;
+	direction:rtl;
+}
+
+/* SLIDER */
+
+.slide-caption{
+	width:55%;
+	font-size:1.1em;
+    text-align:right;
+}
+
+/* pages */
+
+.hebText{
+	width:100%;
+}
+
+.workBox-Desc{
+	float:none;
+	width:100%;	
+}
+
+.iphoneFrame, .laptopFrame{
+	float:none;
+	margin:2em auto auto auto;	
+}
